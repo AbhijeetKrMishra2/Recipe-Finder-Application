@@ -1,6 +1,6 @@
 # Recipe-Finder-Application
 
-This is a  Recipe-Finder-Application app that allows users to search for meals using TheMeal API. Users can search for meals, view detailed information about a meal, and add meals to their favorites list. The app is built using vanilla JavaScript and styled using CSS.
+This is a Recipe-Finder-Application app that allows users to search for meals using TheMeal API. Users can search for meals, view detailed information about a meal, and add meals to their favorites list. The app is built using vanilla JavaScript and styled using CSS.
 
 # Features
 Search any meal from the API and display the search results on the frontend. The search results update as the user types, similar to Google's search suggestions.
@@ -19,7 +19,7 @@ style.css
 script.js
 
 # Usage
-To use the Foody App, follow these steps:
+To use the Recipe-Finder-Application App, follow these steps:
 
 Open the index.html file in a web browser.
 Enter a meal name in the search box to search for meals.
@@ -32,17 +32,7 @@ In the sidebar, you can remove meals from your favorites list by clicking the he
 
 # screenshot
 
-![image](https://github.com/AbhijeetKrMishra2/meal-app_CodingNinjas/assets/139151966/bfcd0a09-c18b-4b35-80c8-fb93868347a3)
 
-![image](https://github.com/AbhijeetKrMishra2/meal-app_CodingNinjas/assets/139151966/0e189e08-ca86-4d9d-a050-06d8bcf383fe)
-
-![image](https://github.com/AbhijeetKrMishra2/meal-app_CodingNinjas/assets/139151966/951c255b-1cea-401a-9352-65c30e7e1ba9)
-
-![image](https://github.com/AbhijeetKrMishra2/meal-app_CodingNinjas/assets/139151966/ad69603c-fd84-418f-98e8-979f9743edf5)
-
-![image](https://github.com/AbhijeetKrMishra2/meal-app_CodingNinjas/assets/139151966/dfcb786d-b415-42b9-a157-0e8c4c0990a3)
-
-![image](https://github.com/AbhijeetKrMishra2/meal-app_CodingNinjas/assets/139151966/3af5eadf-91df-496d-befd-5bba935ff7d2)
 
 
 

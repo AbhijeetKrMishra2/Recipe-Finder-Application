@@ -32,6 +32,13 @@ In the sidebar, you can remove meals from your favorites list by clicking the he
 
 # screenshot
 
+![image](https://github.com/AbhijeetKrMishra2/Recipe-Finder-Application/assets/139151966/ec0fb4ee-fca9-47a0-9f6a-a402f89d9860)
+
+![image](https://github.com/AbhijeetKrMishra2/Recipe-Finder-Application/assets/139151966/d95867e3-2743-4a97-ae2d-fee56b82aeb6)
+
+![image](https://github.com/AbhijeetKrMishra2/Recipe-Finder-Application/assets/139151966/832b4409-3253-489a-988e-60262eb1aece)
+
+![image](https://github.com/AbhijeetKrMishra2/Recipe-Finder-Application/assets/139151966/791d52bb-a94a-4b64-9a76-f490597ccf94)
 
 
 

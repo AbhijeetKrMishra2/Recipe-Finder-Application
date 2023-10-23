@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals App</title>
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css File link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="main-body">
+    <!-- header of the body -->
+    <header>
+        <div id="nav-bar">
+            <div class="logo-name">
+                <a href="#"><i class="far fa-soup"></i>Recipe-Finder-Application</a>
+            </div>
+            <div class="favourite-meal">
+                <button href="" onclick="openNav(); showFavMealList();">
+                    <i class="fa-regular fa-heart"></i> Favourite List
+                </button>
+            </div>
+
+            <!-- sidebar -->
+            <div id="mySidenav" class="sidenav">
+                <div id="fav-meal-heading" class="fav-meal-heading">
+                    <a href="#" class="heading-txt">Favourites</a>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-circle-xmark"></i></a>
+                </div>
+                <div id="favourites-body">
+                    <div>
+                        <span>Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <hr>
+    <!-- main section of the body -->
+    <main>
+        <div class="container">
+            <div class="meal-wrapper">
+                <div class="meal-search">
+                    <!-- heading -->
+                    <h2 class="title">Find Your Meal</h2>
+                    <blockquote>"People who love to eat are always the best people."</blockquote>
+
+                    <!-- Ṣearch Box -->
+                    <div class="meal-search-box" onkeyup="showMealList()">
+                        <input type="search" class="search-control" placeholder="Search For Your Meal..." id="search-input">
+                    </div>
+                </div>
+
+                <!-- Meal Result -->
+                <div class="meal-result">
+                    <h2 class="title">Your Search Result:</h2>
+                    <!-- Search Food List -->
+                    
+                    <div id="meal">
+                        <!-- meal list -->
+                    </div>
+                </div>
+
+                <!--Meal Details -->
+                <div class="meal-details">
+                    <!-- Recipe Close -->
+                    <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+
+                    <!-- Meal Content -->
+                    <div id="meal-details-content">
+                        <!-- meal recipe -->
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </main>
+
+    <!-- footer section of the body -->
+    <footer>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
